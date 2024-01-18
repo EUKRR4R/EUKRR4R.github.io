@@ -37,17 +37,17 @@ body{
     width: 1000px;
 }
 
-a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
+a{color: #0064A3; text-decoration:none;}
+a.current{color: #003052;}
 a.current:hover{color: #e82945;}
 a:hover{color: #b2132e;}
 a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #505050; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+h1,h2,h3,h4{clear:left; color: #505050; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:20px 20px auto 20px; padding:0px; width:900px; text-align:left;}
+p{list-style:none; margin:20px 20px auto 20px; padding:0px; width:900px; text-align:justify;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
@@ -77,13 +77,13 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif; width: : 1000px; max-width:100%;
+.banner {position: relative; font-family:'Roboto Slab',serif; width: 1000px; max-width:100%;
 }
 .top-left {font-size:3.33em; color: #003052; background: #DCF5FF; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #DCF5FF; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #003052; text-shadow: 1px 1px 3px #c0c0c0;font-size:0.4em;} 
+.title1{color: #003052; text-shadow: 1px 1px 3px #c0c0c0;font-size:0.45em;} 
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.4em; font-weight: lighter;}
 
@@ -128,4 +128,4 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
-.textblock {background-color: #FFFFFF}
+.textblock {background-color: #FFFFFF; padding: 20px; margin: 1.5em}
