@@ -75,6 +75,9 @@ th,td{
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
 }
+tr{
+    width:880px;
+}
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif; width: 1000px; max-width:100%;
