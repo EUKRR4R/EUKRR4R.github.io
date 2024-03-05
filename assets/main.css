@@ -75,9 +75,6 @@ th,td{
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
 }
-tr{
-    width:880px;
-}
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif; width: 1000px; max-width:100%;
@@ -108,7 +105,7 @@ td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; p
 td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #505050; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; }
 td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
-td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
+td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px; max-width: 780px; display: block;}
 td.abstract img{display: block; margin: 4px auto 8px auto}
 table.plenary{padding-top: 8px; background: #ffffff;}
 
