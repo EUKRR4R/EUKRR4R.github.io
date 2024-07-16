@@ -81,7 +81,10 @@ th,td{
 }
 .top-left {font-size:3.33em; color: #003052; background: #DCF5FF; text-align: center; width: 1000px; height: 67px; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #DCF5FF; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
-
+.header-container {display: flex; align-items: center; justify-content: center; background: #DCF5FF; padding: 16px 0; width: 1000px; margin: 0 auto;}
+.header-logo {flex: 0 0 auto; margin-right: 20px;}
+.header-title {flex: 1; text-align: center; width: 800px}
+.header-title .title1 {color: #003052; text-shadow: 1px 1px 3px #c0c0c0; font-size: 1.6em;}
 /* Rounded banner image */
 .rounded-corner-banner{width : 1000px; overflow : hidden; border-radius: 25px;}
 
